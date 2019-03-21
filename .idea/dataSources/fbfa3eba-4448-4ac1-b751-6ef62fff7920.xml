@@ -18,7 +18,7 @@
     <schema id="12" parent="1" name="testing"/>
     <schema id="13" parent="1" name="tutorial"/>
     <schema id="14" parent="1" name="website"/>
-    <table id="15" parent="2" name="document"/>
+    <table id="15" parent="2" name="documents"/>
     <table id="16" parent="2" name="users"/>
     <column id="17" parent="15" name="id">
       <Position>1</Position>
