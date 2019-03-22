@@ -24,12 +24,13 @@
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="18" parent="15" name="userID">
+    <column id="18" parent="15" name="user_id">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
     </column>
-    <column id="19" parent="15" name="countryCody">
+    <column id="19" parent="15" name="countryCode">
       <Position>3</Position>
       <DataType>int(11)|0</DataType>
     </column>
@@ -37,33 +38,42 @@
       <Position>4</Position>
       <DataType>varchar(250)|0</DataType>
     </column>
-    <key id="21" parent="15" name="PRIMARY">
+    <column id="21" parent="15" name="company">
+      <Position>5</Position>
+      <DataType>varchar(250)|0</DataType>
+    </column>
+    <key id="22" parent="15" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="22" parent="16" name="id">
+    <column id="23" parent="16" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="23" parent="16" name="username">
+    <column id="24" parent="16" name="username">
       <Position>2</Position>
       <DataType>varchar(250)|0</DataType>
     </column>
-    <column id="24" parent="16" name="password">
+    <column id="25" parent="16" name="password">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="25" parent="16" name="email">
+    <column id="26" parent="16" name="email">
       <Position>4</Position>
       <DataType>varchar(250)|0</DataType>
     </column>
-    <column id="26" parent="16" name="isAdmin">
+    <column id="27" parent="16" name="isAdmin">
       <Position>5</Position>
       <DataType>varchar(250)|0</DataType>
     </column>
-    <key id="27" parent="16" name="PRIMARY">
+    <column id="28" parent="16" name="remember_token">
+      <Position>6</Position>
+      <DataType>varchar(250)|0</DataType>
+    </column>
+    <key id="29" parent="16" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
