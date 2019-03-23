@@ -11,5 +11,14 @@
       <user-name>root</user-name>
       <introspection-schemas>*:apitask</introspection-schemas>
     </data-source>
+    <data-source name="database.sqlite" uuid="c476a6b6-3c1e-46dd-be5d-ae930b489768">
+      <database-info product="SQLite" version="3.25.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.25.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <auth-required>false</auth-required>
+      <introspection-schemas>*:main</introspection-schemas>
+    </data-source>
   </component>
 </project>
