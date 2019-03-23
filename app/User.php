@@ -17,7 +17,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+       'username','name', 'email', 'password','created_at', 'updated_at'
     ];
 
     public function documents()
@@ -25,7 +25,7 @@ class User extends Authenticatable
         return $this->hasMany('App\Document');
     }
 
-    public $timestamps = false;
+ //   public $timestamps = false;
 
     /**
      * The attributes that should be hidden for arrays.

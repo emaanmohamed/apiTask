@@ -10,5 +10,5 @@ class Document extends Model
             'countryCode', 'titleCompany', 'company', 'user_id'
         ];
 
-    public $timestamps = false;
+   // public $timestamps = false;
 }

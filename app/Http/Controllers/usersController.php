@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class usersController extends Controller
 {
+
     public function index()
     {
         return response()->json(User::get(), 200);
