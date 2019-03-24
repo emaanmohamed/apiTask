@@ -6,7 +6,11 @@ use Illuminate\Http\Request;
 //{
 
 //hna lazm el user ykon admin w authenticated
+Route::get('login', 'Api\AuthController@login');
+Route::get('register', 'Api\AuthController@register');
 Route::group(['middleware' => 'auth'], function () {
+
+   // Route::get('login', 'Api\AuthController@login');
     Route::get('users', 'usersController@index');
     Route::get('users/{id}', 'usersController@show');
 });
